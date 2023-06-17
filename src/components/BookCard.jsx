@@ -26,7 +26,7 @@ const BookCard = ({
   return (
     <div
       className=" book_card p-1 m-3 border
-    rounded shadow  "
+    rounded shadow bg-gray-100  "
     >
       <div className=" book_card_img ">
         <img className=" " src={image} alt={title} />
